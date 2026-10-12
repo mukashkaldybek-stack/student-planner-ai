@@ -50,3 +50,42 @@ These features may be considered in future versions.
 - Keep changes small and focused.
 - Test implemented functionality.
 - Update documentation when requirements change.
+- ## Technology Stack
+
+The Student Planner MVP will use the following technologies:
+
+- HTML: Structure of the web pages.
+- CSS: Styling and layout of the user interface.
+- Python: Application logic.
+- Flask: Web application framework.
+- SQLite: Storage for academic tasks.
+- pytest: Automated testing.
+
+## Initial Architecture
+
+The application will be a simple web application.
+
+- The frontend will use HTML and CSS.
+- Flask will handle requests and application logic.
+- SQLite will store academic tasks.
+- pytest will test the application's behavior.
+
+## MVP Features
+
+The first version will allow students to:
+
+1. Create an academic task.
+2. View their task list.
+3. Edit a task.
+4. Delete a task.
+5. Set a deadline.
+6. Mark a task as completed.
+
+AI study recommendations and automatic task prioritization are future improvements and are not part of the initial MVP.
+
+## Development Constraints
+
+- Keep the application simple and beginner-friendly.
+- Write automated tests for new behavior.
+- Do not add dependencies without approval.
+- Document setup and testing instructions.
