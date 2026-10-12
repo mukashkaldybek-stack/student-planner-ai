@@ -89,3 +89,28 @@ AI study recommendations and automatic task prioritization are future improvemen
 - Write automated tests for new behavior.
 - Do not add dependencies without approval.
 - Document setup and testing instructions.
+Technology Choices and Rationale
+
+Frontend: HTML and CSS
+
+HTML defines the structure of the web pages, while CSS controls their appearance and layout. They are suitable for a beginner-friendly MVP and do not require an additional frontend framework.
+
+Backend: Python and Flask
+
+Python is readable and beginner-friendly. Flask provides a simple way to handle web requests and application logic without the complexity of a larger framework.
+
+Data Storage: SQLite
+
+SQLite stores academic tasks in a database file. It is suitable for a small MVP because it does not require a separate database server.
+
+Testing: pytest
+
+pytest makes it straightforward to write and run automated tests. It helps verify that application features behave as expected.
+
+Architecture
+
+The browser displays HTML and CSS pages. Flask receives requests and handles application logic. The application uses SQLite to store and retrieve tasks. pytest runs automated tests against the application.
+
+Dependency Policy
+
+The project will use the approved dependencies listed in requirements.txt. Additional dependencies require approval before installation.
