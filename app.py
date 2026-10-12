@@ -1,7 +1,7 @@
 def create_app():
     from flask import Flask
 
-    app = Flask(name)
+    app = Flask(__name__)
 
     @app.route("/")
     def home():
@@ -10,6 +10,6 @@ def create_app():
     return app
 
 
-if name == "main":
+if __name__ == "__main__":
     app = create_app()
     app.run(debug=True)
