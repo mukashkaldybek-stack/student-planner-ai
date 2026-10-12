@@ -1,4 +1,3 @@
-py — алғашқы тест"}
 from app import create_app
 
 
@@ -9,4 +8,4 @@ def test_home_page():
     response = client.get("/")
 
     assert response.status_code == 200
-    assert b"Student Planner is running
+    assert b"Student Planner is running!" in response.data
