@@ -1,4 +1,3 @@
-py — бастапқы код"}
 def create_app():
     from flask import Flask
 
@@ -13,3 +12,4 @@ def create_app():
 
 if name == "main":
     app = create_app()
+    app.run(debug=True)
