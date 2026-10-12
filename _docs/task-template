@@ -1,0 +1,24 @@
+# Task Title
+
+## Goal
+Describe what needs to be achieved.
+
+## Background
+Explain why this task is needed.
+
+## Requirements
+- [ ] Requirement 1
+- [ ] Requirement 2
+- [ ] Requirement 3
+
+## Acceptance Criteria
+- [ ] The requested functionality works.
+- [ ] Inputs are validated where necessary.
+- [ ] Relevant tests pass.
+- [ ] Documentation is updated if needed.
+
+## Implementation Notes
+Describe technical details or constraints.
+
+## Testing
+Explain how to verify that the task is complete.
